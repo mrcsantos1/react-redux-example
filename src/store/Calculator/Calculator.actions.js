@@ -7,7 +7,7 @@ export function sum(a, b) {
 
 export function subtract(a, b) {
     return {
-        type: 'SUBTRACT',
+        type: 'SUB',
         payload: [a, b]
     }
 }
