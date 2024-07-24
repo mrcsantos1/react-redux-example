@@ -11,7 +11,7 @@ function Calculator() {
     return (
         <>
             <div>
-                <input type="text" placeholder='a' value={a} onChange={(e) => { setA(parseFloat(e.target.value)) }} />
+                <input type="text" placeholder='error' value={a} onChange={(e) => { setA(parseFloat(e.target.value)) }} />
                 <input type="text" placeholder='b' value={b} onChange={(e) => { setB(parseFloat(e.target.value)) }} />
             </div>
 
